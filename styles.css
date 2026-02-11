@@ -45,3 +45,26 @@ h1, h2 {
   color: #444;
   margin-bottom: 15px;
 }
+/* About Section Box Style */
+.about-box {
+  max-width: 750px;
+  margin: 40px auto;
+  padding: 35px 40px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.about-box h2 {
+  font-size: 32px;
+  color: #7b0f1a;
+  margin-bottom: 20px;
+}
+
+.about-box p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 15px;
+}
