@@ -17,3 +17,31 @@ section {
 h1, h2 {
   margin: 0.5rem 0;
 }
+/* ABOUT US PREMIUM CARD */
+#about {
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+}
+
+.about-box {
+  background: #fff;
+  max-width: 900px;
+  padding: 40px 50px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.about-box h2 {
+  color: #7a0f1d;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.about-box p {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 15px;
+}
