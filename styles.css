@@ -40,23 +40,27 @@ section {
 
 .about-box {
   max-width: 800px;
-  margin: auto;
+  margin: 40px auto;
   background: white;
   padding: 40px;
-  border-radius: 12px;
+  border-radius: 14px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  text-align: center;
 }
 
 .about-box h2 {
-  color: #6d0f1c;
+  color: #7a0f1d;
   margin-bottom: 20px;
+  font-size: 32px;
 }
 
 .about-box p {
-  font-size: 17px;
-  line-height: 1.8;
   color: #444;
+  line-height: 1.7;
+  margin-bottom: 15px;
+  font-size: 17px;
 }
+
 
 .whatsapp {
   position: fixed;
