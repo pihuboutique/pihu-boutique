@@ -1,85 +1,70 @@
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  background: #fff8f2;
-  color: #333;
+  font-family: Arial, sans-serif;
+  background: #f6f2ef;
 }
+
 header {
-  background: #f36f6f;
-  color: white;
-  padding: 2rem;
-  text-align: center;
-}
-section {
-  padding: 2rem;
-}
-h1, h2 {
-  margin: 0.5rem 0;
-}
-/* ABOUT US PREMIUM CARD */
-#about {
+  background: #6d0f1c;
+  color: gold;
   display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+}
+
+nav a {
+  color: gold;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.hero {
+  background: url('Banner.jpg.png') center/cover no-repeat;
+  height: 60vh;
+  display: flex;
+  align-items: center;
   justify-content: center;
+}
+
+.hero h1 {
+  background: rgba(0,0,0,0.4);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+
+section {
   padding: 60px 20px;
-}
-
-.about-box {
-  background: #fff;
-  max-width: 900px;
-  padding: 40px 50px;
-  border-radius: 12px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
   text-align: center;
 }
 
-.about-box h2 {
-  color: #7a0f1d;
-  font-size: 32px;
-  margin-bottom: 20px;
-}
-
-.about-box p {
-  font-size: 17px;
-  line-height: 1.8;
-  color: #444;
-  margin-bottom: 15px;
-}
-/* About Section Box Style */
-.about-box {
-  max-width: 750px;
-  margin: 40px auto;
-  padding: 35px 40px;
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
-  text-align: center;
-}
-
-.about-box h2 {
-  font-size: 32px;
-  color: #7b0f1a;
-  margin-bottom: 20px;
-}
-
-.about-box p {
-  font-size: 18px;
-  line-height: 1.8;
-  color: #333;
-  margin-bottom: 15px;
-}
 .about-box {
   max-width: 800px;
-  margin: 0 auto;
+  margin: auto;
   background: white;
   padding: 40px;
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.08);
 }
 
+.about-box h2 {
+  color: #6d0f1c;
+  margin-bottom: 20px;
+}
+
 .about-box p {
   font-size: 17px;
   line-height: 1.8;
   color: #444;
-  margin-bottom: 15px;
+}
+
+.whatsapp {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background: #25d366;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 25px;
+  text-decoration: none;
 }
