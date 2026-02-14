@@ -149,12 +149,14 @@ header {
 
 @media (max-width: 768px) {
 
-  /* Navigation */
-  nav {
-    flex-direction: column;
-    gap: 10px;
-    text-align: center;
+  .hero {
+    height: 75vh;
+    background-position: left center;
+    background-size: cover;
   }
+
+}
+
 
   nav a {
     display: block;
