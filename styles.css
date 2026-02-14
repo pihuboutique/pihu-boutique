@@ -229,3 +229,10 @@ header {
     height: 80vh;
   }
 }
+/* Mobile banner fix */
+@media (max-width: 768px) {
+  .hero {
+    background-position: center top;
+    height: 70vh;
+  }
+}
