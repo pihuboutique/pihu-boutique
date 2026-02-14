@@ -151,11 +151,23 @@ header {
 
 @media (max-width: 768px) {
 
-  .hero {
-    height: 75vh;
-    background-position: left 20%;
-    background-size: cover;
+  nav {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
   }
+
+  .about-box {
+    padding: 20px;
+    margin: 20px 10px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+
 
 }
 
