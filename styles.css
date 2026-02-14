@@ -19,7 +19,7 @@ nav a {
 }
 
 .hero {
-  background: url('Banner.jpg.png') center/cover no-repeat;
+  background: url('Banner.jpg.png') center 45%/cover no-repeat;
   height: 60vh;
   display: flex;
   align-items: center;
