@@ -19,12 +19,16 @@ nav a {
 }
 
 .hero {
-  background: url('Banner.jpg.png') center 60%/cover no-repeat;
+  background-image: url('Banner.jpg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 80%;
   height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 
 .hero h1 {
   background: rgba(0,0,0,0.4);
