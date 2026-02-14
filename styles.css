@@ -236,3 +236,14 @@ header {
 
   }
 }
+/* Mobile banner full image fix */
+@media (max-width: 768px) {
+  .hero {
+    background-image: url('Banner-mobile.jpg'); /* portrait image */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: auto;
+    min-height: 80vh;
+  }
+}
