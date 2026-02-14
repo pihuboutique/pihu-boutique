@@ -220,3 +220,12 @@ header {
     font-size: 14px;
   }
 }
+/* Mobile Banner */
+@media (max-width: 768px) {
+  .hero {
+    background-image: url('Mobile Banner.png');
+    background-size: cover;
+    background-position: center top;
+    height: 80vh;
+  }
+}
