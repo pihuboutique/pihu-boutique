@@ -143,3 +143,75 @@ header {
 .whatsapp-btn {
     background: #25d366;
 }
+/* ============================= */
+/* MOBILE RESPONSIVE SETTINGS */
+/* ============================= */
+
+@media (max-width: 768px) {
+
+  /* Navigation */
+  nav {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  nav a {
+    display: block;
+    padding: 8px 0;
+    font-size: 14px;
+  }
+
+  /* Hero section */
+  .hero {
+    height: 70vh;
+    background-position: center 70%;
+  }
+
+  /* Header buttons */
+  .header-buttons {
+    position: static;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+  }
+
+  .header-buttons .btn {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  /* About section */
+  .about-box {
+    padding: 20px;
+    margin: 20px 10px;
+  }
+
+  .about-box h2 {
+    font-size: 22px;
+  }
+
+  .about-box p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  /* Product & Gallery grid */
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .card img {
+    height: auto;
+  }
+
+  /* WhatsApp button */
+  .whatsapp {
+    right: 15px;
+    bottom: 15px;
+    padding: 10px 14px;
+    font-size: 14px;
+  }
+}
