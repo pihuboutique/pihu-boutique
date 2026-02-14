@@ -231,7 +231,7 @@ header {
 }
 @media (max-width: 768px) {
   .hero {
-    background-position: center 10%;
+    background-position: center 0%;
     height: 75vh;
 
   }
