@@ -109,3 +109,32 @@ section {
 .btn-whatsapp:hover {
     background: #1ebe5d;
 }
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 40px;
+}
+
+.header-left {
+    display: flex;
+    gap: 10px;
+}
+
+.top-btn {
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
+.view-btn {
+    background: #f4c430;
+    color: #5a0f14;
+}
+
+.whatsapp-btn {
+    background: #25d366;
+}
