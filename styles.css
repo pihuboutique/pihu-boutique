@@ -103,10 +103,16 @@ section {
 }
 header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 12px 40px;
+    padding: 12px 20px;
 }
+
+.header-left {
+    display: flex;
+    gap: 10px;
+    margin-right: auto;
+}
+
 
 .header-left {
     display: flex;
